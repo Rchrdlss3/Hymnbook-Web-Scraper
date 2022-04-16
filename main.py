@@ -34,7 +34,7 @@ def createFolder(directory):
         if not os.path.exists(directory):
             os.makedirs(directory)
     except OSError:
-        print('This is not working dummy')
+        print('This is not working.')
 ai = 0
  
 for x in links2:
